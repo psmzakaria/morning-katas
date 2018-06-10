@@ -2,5 +2,5 @@
 
 ### Getting started
 - Fork and clone repo
-- Install dependencies: `yarn install`
-- Run tests: `yarn test:watch`
+- Install dependencies: `npm install`
+- Run tests: `npm run test:watch`

@@ -1,3 +1,5 @@
+const decodeMessage = require('../src/decodeMessage')
+
 // Test cases: actual --> expected
 // decodeMessage("a") --> "z"
 // decodeMessage("z") --> "a"

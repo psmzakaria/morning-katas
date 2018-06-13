@@ -1,3 +1,5 @@
+const isPalindrome = require("../src/isPalindrome");
+
 // Test cases: actual --> expected
 // isPalindrome('') --> true
 // isPalindrome('a') --> true

@@ -1,4 +1,5 @@
-const decodeMessage = require('../src/decodeMessage')
+const decodeMessage = require("../src/decodeMessage");
+const assertEquals = require("../assert-helper");
 
 // Test cases: actual --> expected
 // decodeMessage("a") --> "z"

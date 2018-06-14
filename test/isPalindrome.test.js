@@ -1,4 +1,5 @@
 const isPalindrome = require("../src/isPalindrome");
+const assertEquals = require("../assert-helper");
 
 // Test cases: actual --> expected
 // isPalindrome('') --> true
@@ -9,3 +10,9 @@ const isPalindrome = require("../src/isPalindrome");
 // isPalindrome('tacocat') --> true
 // isPalindrome('racecar') --> true
 // isPalindrome('umbrella') --> false
+
+describe("Palindrome", () => {
+  it("a should be true", () => {
+    is;
+  });
+});

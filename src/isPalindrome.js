@@ -5,7 +5,9 @@ reads the same backward as forward, such as madam or racecar.
 
 `input` will be a single string without spaces and punctuation. */
 const isPalindrome = input => {
-  
+  const reversedInput = input.split("").reverse().join("");
+  if (input === reversedInput) return true;
+  return false;
 };
 
 module.exports = isPalindrome;
